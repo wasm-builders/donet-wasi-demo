@@ -35,9 +35,16 @@ RUN mkdir tmp-wagi && \
 # Install Dot.NEt Core Preview
 # ------------------------------------
 #RUN wget https://download.visualstudio.microsoft.com/download/pr/322dd9d6-3135-4f8f-aa00-4daf61bc51d0/a4e28f08a42034b276e4536acdd0d7f0/dotnet-sdk-7.0.100-preview.4.22252.9-linux-x64.tar.gz
-
 #RUN mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-7.0.100-preview.4.22252.9-linux-x64.tar.gz -C $HOME/dotnet
 #RUN rm dotnet-sdk-7.0.100-preview.4.22252.9-linux-x64.tar.gz
+
+RUN wget https://download.visualstudio.microsoft.com/download/pr/1c28fb12-c30d-411f-8d63-4dd9835387fe/cfe3d86f5600568ac354f7546f876589/dotnet-sdk-7.0.100-preview.5.22307.18-linux-x64.tar.gz
+RUN mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-7.0.100-preview.5.22307.18-linux-x64.tar.gz -C $HOME/dotnet
+RUN rm dotnet-sdk-7.0.100-preview.5.22307.18-linux-x64.tar.gz
+
+RUN export DOTNET_ROOT=$HOME/dotnet && \
+    export PATH=$PATH:$HOME/dotnet && \
+    dotnet workload install wasm-tools
 
 # ------------------------------------
 # Install Wasi Runtimes
