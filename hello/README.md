@@ -5,7 +5,7 @@
 dotnet new console -o hello
 ```
 
-> change the content of `hello/hello.csproj``
+> change the content of `hello/hello.csproj` PLUS BESOIN
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 

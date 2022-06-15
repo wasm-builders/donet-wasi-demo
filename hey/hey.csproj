@@ -11,4 +11,11 @@
     <PackageReference Include="Wasi.Sdk" Version="0.1.1" />
   </ItemGroup>
 
+  <!--
+  <ItemGroup>
+    <PackageReference Include="Wasi.Sdk" Version="0.1.1" />
+  </ItemGroup>
+  -->
+
+
 </Project>
