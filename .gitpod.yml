@@ -22,7 +22,7 @@ tasks:
 
     init: |
       echo "🚀 initialize"
-      npm install
+      #npm install
       export DOTNET_ROOT=$HOME/dotnet
       export PATH=$PATH:$HOME/dotnet
       #dotnet add package Wasi.Sdk --prerelease
