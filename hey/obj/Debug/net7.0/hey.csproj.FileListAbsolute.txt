@@ -1,0 +1,15 @@
+/workspace/donet-wasi-demo/hey/bin/Debug/net7.0/hey
+/workspace/donet-wasi-demo/hey/bin/Debug/net7.0/hey.deps.json
+/workspace/donet-wasi-demo/hey/bin/Debug/net7.0/hey.runtimeconfig.json
+/workspace/donet-wasi-demo/hey/bin/Debug/net7.0/hey.dll
+/workspace/donet-wasi-demo/hey/bin/Debug/net7.0/hey.pdb
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.csproj.AssemblyReference.cache
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.AssemblyInfoInputs.cache
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.AssemblyInfo.cs
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.csproj.CoreCompileInputs.cache
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.dll
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/refint/hey.dll
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.pdb
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/hey.genruntimeconfig.cache
+/workspace/donet-wasi-demo/hey/obj/Debug/net7.0/ref/hey.dll
